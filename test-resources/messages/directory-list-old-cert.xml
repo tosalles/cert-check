@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:DirectoryRes xmlns:ns2="http://www.betaalvereniging.nl/iDx/messages/Merchant-Acquirer/1.0.0" xmlns="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="urn:iso:std:iso:20022:tech:xsd:pain.012.001.04" productID="NL:BVN:eMandatesCore:1.0" version="1.0.0">
+    <ns2:createDateTimestamp>2024-01-24T21:44:08.986Z</ns2:createDateTimestamp>
+    <ns2:Acquirer>
+        <ns2:acquirerID>0510</ns2:acquirerID>
+    </ns2:Acquirer>
+    <ns2:Directory>
+        <ns2:directoryDateTimestamp>2022-12-13T12:30:18.000Z</ns2:directoryDateTimestamp>
+        <ns2:Country>
+            <ns2:countryNames>Nederland</ns2:countryNames>
+            <ns2:Issuer>
+                <ns2:issuerID>BANKNL2Y</ns2:issuerID>
+                <ns2:issuerName>Core issuer Simulation</ns2:issuerName>
+            </ns2:Issuer>
+        </ns2:Country>
+    </ns2:Directory>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>trR6QDSNMGUXkL8g5fQCKqRF8aZ1tU+z7c1aX3CyVhs=</DigestValue></Reference></SignedInfo><SignatureValue>njQhuTRuOsJlnlRXQlBBCSqYFovbvkfL3eB3C1VIIvtVQnliWb6TkDKo2CLBdx1eEHkJmQ1CV3J5RgQe9WnjLK5XsOoWImnF7WDCiBr96zLfnmmU96sIU8kPSenXZqK8XxLuoihyK2N82h6U04wiUb2Z3y1Kjl1zSI68aW3L9JkaR16AoN7mUCBNVfl52VYPy61DmmK8O3X4AOb1noDYslF9/3+azTL7RK+ZZm1U4lBTagoi//shfapLeFb7KX3RaaGAKoEMq+tI8ABk0x+pQaXrjkYMEbCwz+wkCTj//K7vebLFbrck0meIA6PDnbxu87P/su2FdciIJiEhJpIQqQ==</SignatureValue><KeyInfo><KeyName>A9117C29507C9FE9A89DDA853149B09345F6584C</KeyName></KeyInfo></Signature></ns2:DirectoryRes>
